@@ -18,7 +18,7 @@
       var FaviData = localStorage.getItem("Favi");
       console.log("Loaded title `" + TitleData + "` with icon `" + "/" + FaviData + "`");
       if (TitleData === null) {
-        document.title = "JustStudy";
+        document.title = "GooglyGiraffeSigma";
         document.querySelector("link[rel='shortcut icon']").href = '/assets/img/favicon.ico';
       }
       else {
@@ -82,80 +82,6 @@
 <body onload="LoadData()">
   <script src="assets/js/teacher.js"> </script>
   <!-- start of what i added -->
-  <center>
-    <div class="announcementcontainer" id="announcementcontainer" style="
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 2000;
-    color: white;
-    align-items: center;
-    justify-content: center;
-  ">
-      <div class="AnnouncementBox" style="
-      max-height: 90%;
-      width: 80%;
-      max-width: 900px;
-      background-color: #2f3136;
-      border-radius: 16px;
-      padding: 2rem;
-      text-align: left;
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
-      color: #ffffff;
-      position: relative;
-      overflow-y: auto;
-    ">
-        <!-- Loading Bar -->
-        <div id="loadingBar" style="
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 0%;
-          height: 5px;
-          background-color: #7289da;
-        "></div>
-        <center id="loadingText">
-          <p>Loading...</p>
-        </center>
-
-        <button onclick="document.querySelector('.announcementcontainer').style.display='none';" style="
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        background: none;
-        border: none;
-        font-size: 2rem;
-        color: #ffffff;
-        cursor: pointer;
-      " id="closeAnnouncement">
-          &times;
-        </button>
-
-        <h2 style="
-        margin-bottom: 1.5rem;
-        font-family: Comfortaa, sans-serif;
-        font-size: 2rem;
-        text-align: center;
-      ">
-          JustStudy Announcements and Updates
-        </h2>
-
-        <div class="announcementmaincontent" style="font-size: 1.2rem; line-height: 1.8; color: #dcddde">
-          <p>This is the JustStudy announcements and updates page from now on i think</p>
-          <p>
-            <center><strong> !!NEW UPDATES!!</strong></center>
-          </p>
-
-          <p>
-            I need to make this straight so everyone knows this. Unfortunately we cannot in any way currently add the
-            ability for you to search the internet freely to get past bl0cking on your schools network. Most to all
-            blocking systems have keywords and systems in place that can detect this occurance. We will work hard behind
-            the scenes to try and get something working that doesn't get bl0cked however this may take some time. We are
-            sorry for any inconvenience caused and we hope you understand.
           </p>
 
           <!-- <p>
@@ -170,20 +96,7 @@
          margin: 1.5rem 0;
        " />
 
-          <p>
-            <strong>Game Updates and announcements!</strong>
-          </p>
-          <p>
-            We have received a lot of game requests and I mean a lot. Around 50+! - We will be working on getting as
-            many games into the site as we can and this will be done over the half term!
-          </p>
-
-          <p>Please also don't forgot Olly no longer works with us! Please don't direct questions to him! We are
-            slightly working in collaboration however he is no longer part of our team!</p>
-
-          <p>
-            Don't forget! School doesn't last too long, spend your time wisely! And also: CORNELL NOTES!!
-          </p>
+         
           <hr style="
 border: none;
 border-top: 1px solid #7289da;
@@ -829,17 +742,7 @@ margin: 1.5rem 0;
 
       showLoader();
 
-    </script>
-    <div class="text-center bottom-text" style="height:auto;">
-      <p style="font-size: 1.5vw;">JustStudy CE is proudly ad-free and open source! Get the source code and host
-        yourself
-        on <a style="font-size: 1.5vw;" href="https://github.com/JustStudy-CE/juststudy-ce">𝔾𝕚𝕥𝕙𝕦𝕓</a>.</p>
-      <p style="font-size: 1.5vw;">Join our <a style="font-size: 1.5vw;" href="assets/img/qr.png">𝔻𝕚𝕤𝕔𝕠𝕣𝕕
-          𝕤𝕖𝕣𝕧𝕖𝕣</a>!</p>
-      <p style="font-size: 1.5vw;">Hit counter:</p>
-      <a href="https://www.freecounterstat.com" title="website counter"><img
-          src="https://counter6.optistats.ovh/private/freecounterstat.php?c=e7q6e6dd17hut31lkgpqpjpzlrbjlbgt" border="0"
-          title="website counter" alt="website counter"></a>
+
     </div>
     <script>
       (function () {
